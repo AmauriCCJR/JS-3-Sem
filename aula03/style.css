@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(54, 54, 54); 
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.msg-geral{
+    color: red;
+    font-size: 15px;
+    background-color: rgb(243, 190, 171);
+    padding: 5px;
+    border-radius: 3px;
+}
+.esconder {
+    display: none !important; /*Força a execução da classe no inicio do app*/
+}
+.exibir{
+    display: block !important;
+}

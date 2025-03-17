@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro Fisico e Juridico</title>
+</head>
+<body>
+    <h1>Cadastro de pessoa fisica e juridica</h1>
+    <label for="nome">Nome:</label><input type="text" id="nome">
+    <p>Tipo</p>
+    <select id="opcoes" title="menu de opcoes">
+        <option id="escolha" selected value="escolher">Escolher</option>
+        <option id="fisico" value="fisico">Fisico</option>
+        <option id="juridico" value="juridico">Juridico</option>
+    </select><br><br>
+    <button type="button" id="pesquisar">Pesquisar</button>
+
+
+    <div class="esconder" id="formF">
+        <h2 id="campoF">Cadastro de pessoa fisica</h2>
+        <p class="esconder" id="msF"></p>
+        <label for="cpf">Cpf: </label><input type="text" id="cpf"><br><br>
+        <label for="rg">RG: </label><input type="text" id="rg"><br><br>
+        <label for="idade">Idade: </label><input type="text" id="idade"><br><br>
+        <br><br><input type="button" value="Gravar" id="btn1">
+    </div>
+
+    <div class="esconder" id="formJ">
+        <h2 class="campoJ">Cadastro de pessoa juridica</h2>
+        <p class="esconder" id="msJ"></p>
+        <label for="cnpj">CNPJ: </label><input type="text" id="cnpj"><br><br>
+        <label for="ie">IE: </label><input type="text" id="ie"><br><br><!--Inscrição Estadual-->
+        <label for="nomeF">Nome Fantasia: </label><input type="text" id="nomeF"><br><br>
+        <br><br><input type="button" value="Gravar" id="btn2" >
+    </div>
+    
+
+
+<script src="app.js"></script>
+</body>
+</html>
