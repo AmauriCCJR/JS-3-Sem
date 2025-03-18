@@ -1,0 +1,10 @@
+.esconder{ 
+    display: none;
+}
+.exibir{
+    display: block;
+}
+body{
+    background-color: gray;
+    color: antiquewhite;
+}
