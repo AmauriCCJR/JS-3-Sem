@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova 01 - Amauri Carlos</title>
+</head>
+<body>
+    
+    <h1>Cadastro de Conta Bancaria</h1><br>
+    <div class="exibir">
+    <p class="" id="error"></p>
+    <p class="" id="error2"></p>
+    <p class="" id="error3"></p>
+    <p class="" id="error4"></p>
+    </div>
+    <select id="opcao">
+        <option value="cc">Conta Corrente</option>
+        <option value="cp">Conta Poupança</option>
+        <option value="cs">Conta Salário</option>
+    </select>
+    <br><br><br>
+    <button type="button" id="verificar">Abrir Conta</button>
+
+    <div class="esconder" id="contaC">
+        <h2>Criar Conta Corrente</h2><br>
+        <label for="nomecontac">Seu nome: </label> <input type="text" name="nomecontac" id="nomecontac"><br>
+        <label for="saldocontac">Saudo Inicial: </label><input type="text" name="saldocontac" id="saldocontac"><br>
+        <label for="limitecontac">Limite de crédito:</label><input type="text" name="limitecontac" id="limitecontac"><br>
+        <label for="cpfcontac">Seu CPF: </label><input type="text" name="cpfcontac" id="cpfcontac"><br>
+        <button type="button" id="btncontac">Cadastrar</button>
+    </div><br>
+
+    <div class="esconder" id="contaP">
+        <h2> Criar Conta Poupança</h2><br>
+        <label for="nomecontap">Seu nome: </label> <input type="text" name="nomecontap" id="nomecontap"><br>
+        <label for="saldocontap">Saldo Inicial: </label> <input type="text" name="saldocontap" id="saldocontap"><br>
+        <label for="cpfcontap">Seu CPF: </label><input type="text" name="cpfcontap" id="cpfcontap"><br>
+        <button type="button" id="btncontap">Cadastrar</button>
+    </div><br>
+
+    <div class="esconder" id="contaS">
+        <h2>Criar Conta Salário</h2><br>
+        <label for="nomeempresacontas">Nome da empresa: </label> <input type="text" name="nomeempresacontas" id="nomeempresacontas"><br>
+        <label for="nomecontas">Seu nome: </label> <input type="text" name="nomecontas" id="nomecontas"><br>  
+        <label for="">Saldo inicial: </label> <input type="text" name="saldocontas" id="saldocontas"><br>
+        <label for="cpfcontas">Seu CPF: </label><input type="text" name="cpfcontas" id="cpfcontas"><br>
+        <button type="button" id="btncontas">Cadastrar</button>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

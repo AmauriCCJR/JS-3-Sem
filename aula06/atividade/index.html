@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Atividade</title>
+</head>
+<body>
+    <form>
+        <label for="id">Digite o ID: </label><input type="text" name="id" id="id"><br><br>
+        <label for="descricao">Digite a descrição:  </label><input type="text" name="descricao" id="descricao"><br><br>
+        <label for="t_valores">Selecione o valor:  </label><select id="t_valores">
+            <option value="100" selected>R$100</option>
+            <option value="130">R$130</option>
+            <option value="150">R$150</option>
+        </select><br><br>
+        <label>Escolha a categoria:</label><br>
+
+       <label for="merce">Mercearia</label> <input type="checkbox" value="mercearia" id="merce" name="merce">
+        <label for="bebi">Bebidas</label><input type="checkbox" value="bebidas" id="bebi" name="bebi">
+
+       <br><br><input type="button" id="btnGravar" value="Gravar">
+       <input type="button" id="btnMostrar" value="Exibir">
+        <div id="result"></div>
+
+
+    </form>
+
+
+
+    <script src="ativi.js"></script>
+</body>
+</html>
