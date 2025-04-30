@@ -29,6 +29,7 @@ var gravarJson = JSON.stringify(pessoas);
 localStorage.setItem('Cadastro de Pessoas',gravarJson);
 
 var PESSOASOBJ = JSON.parse(localStorage.getItem('Cadastro de Pessoas'));
+
 console.log(PESSOASOBJ);
 
 PESSOASOBJ.push({id:7, nome:'Jão', idade: 18, sexo: 'M', salario: 1900.80})//Add elementos ao array
