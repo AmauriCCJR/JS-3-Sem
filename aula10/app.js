@@ -79,6 +79,7 @@ btnLimpar.addEventListener('click', limpar);
 
 btnReset.addEventListener('click', function(){
 localStorage.clear();
+pessoas = [];
 limpar();
 carregarPessoas();
 });
@@ -127,12 +128,6 @@ function editar(id){
     let newEdit = edit.filter((newPessoa)=> newPessoa.idPessoa == id)
 
     inputNome.value = newEdit.Nome;
-
-
-    
-
-   
-
 
 }
 
