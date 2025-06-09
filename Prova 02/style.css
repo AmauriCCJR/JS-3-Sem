@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(44, 44, 44);
+    color: antiquewhite;
+    margin: 0 40px;
+}
+td{
+    padding: 10px;
+    border: 1px solid;
+}
+
+.esconder{
+    display: none;
+}
+.mostrar{
+    display: block;
+    background-color: rgb(228, 125, 125);
+    border: 2px solid;
+    border-color:aliceblue;
+    text-align: center;
+}
+
+.checkMaior{
+    background-color: rgb(46, 100, 46);
+}
+.checkIgual{
+    background-color: rgb(129, 129, 1);
+}
+.checkMenor{
+    background-color: rgb(251, 98, 98);
+}
